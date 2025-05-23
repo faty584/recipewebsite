@@ -40,6 +40,7 @@
     text-align: center;
     border-radius: 10px;
     margin-left: -50px;
+    margin-left: 10px;
     }
     
     
@@ -75,11 +76,14 @@
     @media (min-width: 768px) {
       .meal-list {
         grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+        gap: 10px;
+
       }
     }
 
     @media (min-width: 1024px) {
       .meal-list {
         grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+        gap: 10px;
       }
     }
